@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "title": "Weekly Coding Contest",
+    "description": "Join our weekly coding contest and solve exciting problems!",
+    "start_time": "2023-10-15T10:00:00Z",
+    "end_time": "2023-10-15T12:00:00Z",
+    "duration": "2 hours",
+    "problems": [],
+    "organizer": "Coding Club",
+    "rules": [
+        "No plagiarism allowed.",
+        "Submissions must be made before the contest ends."
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "username": "john_doe",
+    "email": "john@example.com",
+    "full_name": "John Doe",
+    "role": "participant",
+    "joined_at": "2023-10-15T10:00:00Z",
+    "problems_solved_by_category": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+    },
+    "contests_participated": [],
+    "problems_solved": [],
+    "rating": 0
+}

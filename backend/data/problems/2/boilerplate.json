@@ -1,0 +1,7 @@
+{
+    "python": "def solve():\n    # Your code here\n\nif __name__ == '__main__':\n    t = int(input())\n    while t--:\n        solve()",
+    "java": "import java.util.*;\n\npublic class Main {\n    public static void solve() {\n        // Your code here\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int t = sc.nextInt();\n        while (t-- > 0) {\n            solve();\n        }\n    }\n}",
+    "javascript": "function solve() {\n    // Your code here\n}\n\nlet t = parseInt(prompt());\nwhile (t--) {\n    solve();\n}",
+    "c": "#include <stdio.h>\n\nvoid solve() {\n    // Your code here\n}\n\nint main() {\n    int t;\n    scanf(\"%d\", &t);\n    while (t--) {\n        solve();\n    }\n    return 0;\n}",
+    "cpp": "#include <bits/stdc++.h>\nusing namespace std;\n\nvoid solve() {\n    // Your code here\n}\n\nint main() {\n    int t;\n    cin >> t;\n    while (t--) {\n        solve();\n    }\n    return 0;\n}"
+}

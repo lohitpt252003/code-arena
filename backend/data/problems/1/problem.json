@@ -1,0 +1,30 @@
+{
+    "id": 1,
+    "title": "Problem Name",
+    "description": "Problem Statement",
+    "tags": [
+        ""
+    ],
+    "difficulty": "",
+    "constraints": [
+        "constraint1",
+        "constraint2",
+        "constraint3"
+    ],
+    "author": "Admin",
+    "tester": "Admin",
+    "input_format": "Input format",
+    "output_format": "Output format",
+    "time_limit": "1 second",
+    "memory_limit": "256 MB",
+    "examples": [
+        {
+            "input": "input1",
+            "expected_output": "expected_output1"
+        },
+        {
+            "input": "input2",
+            "expected_output": "expected_output2"
+        }
+    ]
+}

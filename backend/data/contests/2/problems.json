@@ -1,0 +1,12 @@
+[
+    {
+        "id": "problem1",
+        "title": "Two Sum",
+        "difficulty": "easy"
+    },
+    {
+        "id": "problem2",
+        "title": "Add Two Numbers",
+        "difficulty": "medium"
+    }
+]
