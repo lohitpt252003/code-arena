@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import Navbar from '../Navbar/Navbar';
+import Layout from '../Layout/Layout';
 
 const User = () => {
     const { user_id } = useParams(); // Get user_id from the URL
@@ -52,8 +52,8 @@ const User = () => {
 
     // Display user data
     return (
-        <div style={{ padding: '20px' }}>
-            <Navbar />
+        <Layout style={{ padding: '20px' }}>
+            
             <h1>User Details</h1>
             {user ? (
                 <div style={cardStyle}>
@@ -74,7 +74,7 @@ const User = () => {
             ) : (
                 <div>No user data available.</div>
             )}
-        </div>
+        </Layout>
     );
 };
 

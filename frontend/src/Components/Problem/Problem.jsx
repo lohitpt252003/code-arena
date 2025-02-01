@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
+import Layout from '../Layout/Layout'
 
 const Problem = () => {
     const { problem_id } = useParams(); // Get the problem ID from the URL
@@ -35,7 +36,7 @@ const Problem = () => {
 
     // Display problem details
     return (
-        <div style={styles.container}>
+        <Layout style={styles.container}>
             <h1 style={styles.heading}>{problem.title}</h1>
             <div style={styles.detailsContainer}>
                 <section style={styles.section}>
@@ -83,7 +84,7 @@ const Problem = () => {
                     <p><strong>Memory Limit:</strong> {problem.memory_limit}</p>
                 </section>
             </div>
-        </div>
+        </Layout>
     );
 };
 

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import Layout from '../Layout/Layout';
 
 const Problems = () => {
     const [problems, setProblems] = useState([]); // State to store the list of problems
@@ -36,7 +37,7 @@ const Problems = () => {
     }
 
     return (
-        <div style={{ padding: '20px' }}>
+        <Layout style={{ padding: '20px' }}>
             <h1>Problems</h1>
             <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                 <thead>
@@ -60,7 +61,7 @@ const Problems = () => {
                     ))}
                 </tbody>
             </table>
-        </div>
+        </Layout>
     );
 };
 
